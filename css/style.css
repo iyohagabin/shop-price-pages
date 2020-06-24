@@ -1,0 +1,147 @@
+*,body,html a:hover {
+  margin: 0;
+  padding: 0; 
+  text-decoration: none;
+   }
+
+/* menu section */
+.menu {
+  padding-top: 83px;
+  padding-bottom: 25px;
+}
+.navbar-brand {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 22px;
+  padding-left: 120px;
+}
+
+.navbar-nav {
+  padding-right: 100px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+}
+.navbar-nav li {
+  margin-left: 55px;
+}
+.nav-item .btn-primary {
+  box-shadow: none;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
+  background: #1c1c1c;
+  color: #ffffff !important;
+}
+/*banner*/
+#glow {
+  color: rgba(17, 17, 17, 0.774);
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073,
+      0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
+      0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.jumbotron {
+  background-image: url("../images/girlbag2.jpg") ;
+  background-size: 1440px 180px;
+}
+/*search navigation*/
+
+#search {
+  width: 297px;
+  height: 30px;
+  left: 120px;
+  top: 384px;
+  border: 1px solid #c4c4c4;
+}
+.search-bar{
+  padding-left: 50px;
+}
+.popular{
+  padding-right: 50px;
+}
+.bi-cart{
+  padding-right: 5px;
+}
+/*content area*/
+.beauty-content{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+a{
+  color: black;
+}
+a:hover{
+  color: greenyellow;
+}
+.deals{
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+.side-images{
+  width: 100px;
+ height: 120px;
+ padding-top: 10px;
+}
+.text {
+  padding-right: 200px;
+}
+.sc-item-img{
+  width: 199px;
+  height: 200px;
+}
+.price-items {
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+.items{  
+  padding: 10px;
+}
+.page{
+  padding-left: 140px;
+}
+
+/*footer*/
+#footer{
+  background: url(../images/footer-img.png)  no-repeat center center/cover;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.footer-link{font-size: 14px;
+  color:#ffffff; text-decoration: none;
+text-decoration-style: none;}
+.footer-link:hover{
+color: #96772c;
+}
+.store-name{ font-weight: bold;
+font-size: 36px; line-height: 44px;
+
+}   
+.store-name:after{ content: ""; 
+  display: block; 
+  margin-left: 70px; 
+  width: 70%; 
+  padding-top: 10px;
+  border-bottom: 1px solid #fff;} 
+.reserved {
+  padding-right: 50px;
+}
+.sm-icons{margin-left: 250px;}   
+.allrights{font-size: 14px;
+line-height: 21px;} 

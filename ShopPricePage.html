@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>shoppricepage</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="menu">
+      <nav class="nav navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Floral Beauty</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-secondary bg-dark">See Services</button>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+      
+    </section>
+
+    <div class="jumbotron big-banner" style="height: 180px;">
+      <div class="banner-message" id="glow">
+        <h1 class="display-5 font-weight-bold">Shop</h1>
+        <h3 class="display-6 font-weight-bold">
+          Affordable Prices You Can Trust!
+        </h3>
+      </div>
+    </div>
+
+    <nav class="navbar search-tools navbar-light alert-dark">
+      <div class="row search-bar">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+        <button class="btn btn-outline-success my-2 my-sm-0 bg-dark" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </div>
+      <div class="row popular">
+        <svg class="bi bi-cart" width="1.5em" height="1.5em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z"/>
+         </svg>
+        <form>   
+          <select name="cars" class="custom-select">
+            <option selected>Most Popular</option>
+            <option value="volvo">Newest Arrivals</option>
+            <option value="fiat">Best Rating</option>
+            <option value="audi">Discounts</option>
+            <option value="audi">Shipped from Overseas</option>
+          </select>
+        </form>
+
+      </div>
+         
+    </nav>
+
+    <section class="content">
+      <div class="beauty-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="list-group-main">
+                <h6 style="color: #BFA09B;">Categories</h6>
+               <ul class="list-group">
+                <li class="list-group-item"><a href="#">all</a></li>
+                <li class="list-group-item"><a href="#">Hair products</a></li>
+                <li class="list-group-item"><a href="#">Skin Care products</a></li>
+                <li class="list-group-item"><a href="#">Accessories</a></li>
+                <li class="list-group-item"><a href="#">Nail products</a></li>
+               </ul>
+              </div>
+              
+              <div class="deals">
+                <h6 style="color:#BFA09B;">Deals of the Week</h6>
+                <div class="col-md-4">
+                  <img src="images/body wash.jpg" class="side-images">
+                  <p><a href="#">Body wash</a><br><s>$57</s> $25 </p>
+                  <p></p>
+                </div><!--price-items-->                  
+                
+                <div class="col-md-4">
+                  <img src="images/eau de perfume.jpg" class="side-images">
+                  <p><a href="#">Eua da Parfum</a><br><s>$67</s> $35 </p>
+                  <p></p>
+                </div><!--price-items--> 
+                
+                <div class="col-md-4">
+                  <img src="images\fragrance.jpg" class="side-images">
+                  <p ><a href="#">Floral Fragrance</a><br><s>$107</s> $85 </p>
+                  <p></p>
+                </div><!--price-items--> 
+                                 
+              </div>
+              
+            </div> 
+              
+            <div class="col-8">
+              <div class="row price-items">
+                <div class="col-md-4 items ">
+                  <img src="images/eau de toillete.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Eau da Toillete</a></div>
+                  <div class="text-center">$78</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images/facial kit.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Facial Kit</a></div>
+                  <div class="text-center">$58</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images\fragrance.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Floral Fragrance Cool</a></div>
+                  <div class="text-center">$125</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images/nature cream.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Nature Cream</a></div>
+                  <div class="text-center">$47</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images/shampoo.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Shampoo</a></div>
+                  <div class="text-center">$24</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images\fragrance.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Floral Fragrance Warm</a></div>
+                  <div class="text-center">$105</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images/body wash.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Body Wash</a></div>
+                  <div class="text-center">$90</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images\fragrance.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Floral Fragrance Hot</a></div>
+                  <div class="text-center">$175</div>
+                </div><!--price-items-->
+                <div class="col-md-4 items">
+                  <img src="images/eau de perfume.jpg" class="sc-item-img img-responsive">
+                  <div class="text-center"><a href="#">Eau da Parfum</a></div>
+                  <div class="text-center">$80</div>
+                </div><!--price-items-->
+  
+              </div>
+              <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center page">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+  
+        </div><!--container-->
+        
+      </div><!--beauty content-->
+    </section>
+    
+
+    <section id="footer">
+      <div class="container">
+        <div class="row footer-content">
+          
+          <div class="col-md-4 ">
+            <br>
+            <ul class="footerlist list-unstyled">
+              <li> <a href="#" class="footer-link">Contact us</a></li>
+              <li> <a href="#" class="footer-link">About us</a></li>
+              <li> <a href="#" class="footer-link">Services</a></li>
+              <li> <a href="#" class="footer-link">Price list</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 footerlist">
+            <br>
+            <ul class="list-unstyled">
+              <li> <a href="#" class="footer-link">Terms & Conditions</a></li>
+              <li> <a href="#" class="footer-link">Privacy Policy</a></li>
+              <li> <a href="#" class="footer-link">How to Book</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-contact">
+         <br>
+              <p class="store-name">Floral Beauty Place</p>
+              <div class="sm-icons">
+                <i class="fa fa-facebook" aria-hidden="true"></i> &nbsp;
+                <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </div> <br>
+              <p class="allrights d-flex justify-content-end reserved" >All rights reserved. Floral Beauty 2020</p>
+            </div>
+  
+        </div>
+  
+      </div>
+    </section>
+
+  
+  </body>
+</html>
